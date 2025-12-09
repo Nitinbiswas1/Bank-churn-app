@@ -11,7 +11,7 @@ st.sidebar.title("⚙️ Settings")
 
 api_base = st.sidebar.text_input(
     "FastAPI base URL",
-    value="http://localhost:8000",
+    value="https://bank-churn-app.onrender.com",
     help="Change this if your backend is deployed elsewhere",
 )
 
